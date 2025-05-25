@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 import json
 
-TOKEN = "8144114288:AAF2wcOgMmuSbnok9EPn7PrLhLGAAlmvjaA"  # replace with your actual token
+TOKEN = "  # replace with your actual token"
 CONFIG_FILE = "config.json"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
